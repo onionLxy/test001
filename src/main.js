@@ -12,7 +12,7 @@ Vue.use(ElementUI)
 
 // 引入全局的css(公共的样式)
 /* eslint-disable*/
-import './assets/css/common.css'
+// import './assets/css/common.css'
 
 Vue.config.productionTip = false
 /* eslint-disable*/

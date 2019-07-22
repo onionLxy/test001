@@ -60,8 +60,18 @@ export default {
   }
 };
 </script>
-<style  scoped lang='less'>
-
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#app {
+  height: 100%;
+}
+</style>
+<style  scoped >
 .el-container {
   height: 100%;
   min-width: 900px;
@@ -71,24 +81,28 @@ export default {
   background: #b3c1cd;
   padding: 0px;
   height: 80px !important;
-    h1 {
+}
+img {
+  width:350px;
+}
+h1 {
       color: #fff;
       text-align: center;
       line-height: 80px;
       font-size: 32px;
-        .out {
+
+    }
+.out {
           text-align: right;
           line-height: 80px;
           padding-right: 40px;
           font-size: 30px;
-          .out a {
+
+        }
+.out a {
             color: #1b8bf5;
             text-decoration: none;
           }
-        }
-    }
-}
-
 
 /* 侧边栏 */
 .el-aside {
